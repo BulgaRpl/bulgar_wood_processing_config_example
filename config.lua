@@ -101,7 +101,7 @@ Config.ChopLogPoints = { -- It will spawn also the object in this coords for Cho
 		itemreward = 'Firewood', 
 		itemreward_label = 'Firewood', 
 		itemreward_amount = 10,
-		work_duration = 60 -- max in seconds, in this case more than 60 will break the reward cuz its an scenario that can be ended before time.
+		work_duration = 50 -- max in seconds, in this case more than 50 will/may break the reward cuz its an scenario that can be ended before time.
 	},
     [2] = { -- Monto's Rest 
 		x = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
@@ -115,7 +115,7 @@ Config.ChopLogPoints = { -- It will spawn also the object in this coords for Cho
 		itemreward = 'Firewood', 
 		itemreward_label = 'Firewood', 
 		itemreward_amount = 10,
-		work_duration = 60 -- max in seconds, in this case more than 60 will break the reward cuz its an scenario that can be ended before time.
+		work_duration = 50 -- max in seconds, in this case more than 50 will/may break the reward cuz its an scenario that can be ended before time.
 	},
 	-- Other Fell Free to Add...
 }
