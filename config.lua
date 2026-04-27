@@ -43,6 +43,8 @@ Config.SawLogPoints = {
 		y = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		z = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		h = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
+		workitemname = nil, -- or "itemname" if u set itemname here it will need an item to work in this place for example "saw", nil = disabled no item needed
+		workitemname_label = "Item Display Name", -- set item display name for "workitemname" if u are using item instead of nil
 		needitem = 'woodlog', 
 		needitem_label = 'Wood Log',
 		needitem_amount = 5, 
@@ -60,6 +62,8 @@ Config.SawPlankPoints = {
 		y = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		z = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		h = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
+		workitemname = nil, -- or "itemname" if u set itemname here it will need an item to work in this place for example "saw", nil = disabled no item needed
+		workitemname_label = "Item Display Name", -- set item display name for "workitemname" if u are using item instead of nil
 		needitem = 'cutwoodlog', 
 		needitem_label = 'Cut Wood Log', 
 		needitem_amount = 5, 
@@ -77,6 +81,8 @@ Config.PlanePoints = {
 		y = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		z = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		h = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
+		workitemname = nil, -- or "itemname" if u set itemname here it will need an item to work in this place for example "plane", nil = disabled no item needed
+		workitemname_label = "Item Display Name", -- set item display name for "workitemname" if u are using item instead of nil
 		needitem = 'plank', 
 		needitem_label = 'Plank', 
 		needitem_amount = 5, 
@@ -95,6 +101,8 @@ Config.ChopLogPoints = { -- It will spawn also the object in this coords for Cho
 		z_o = 00.00, -- Object Z -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		z = 00.00, -- Marker Z - Config.MarkerCoordCorrection -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		h = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
+		workitemname = nil, -- or "itemname" if u set itemname here it will need an item to work in this place for example "axe", nil = disabled no item needed
+		workitemname_label = "Item Display Name", -- set item display name for "workitemname" if u are using item instead of nil
 		needitem = 'cutwoodlog', 
 		needitem_label = 'Cut Wood Log', 
 		needitem_amount = 5, 
@@ -109,6 +117,8 @@ Config.ChopLogPoints = { -- It will spawn also the object in this coords for Cho
 		z_o = 00.00, -- Object Z -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		z = 00.00, -- Marker Z - Config.MarkerCoordCorrection -- 'CONFIGURED AFTER U GET THE SCRIPT' 
 		h = 00.00, -- 'CONFIGURED AFTER U GET THE SCRIPT' 
+		workitemname = nil, -- or "itemname" if u set itemname here it will need an item to work in this place for example "axe", nil = disabled no item needed
+		workitemname_label = "Item Display Name", -- set item display name for "workitemname" if u are using item instead of nil
 		needitem = 'cutwoodlog', 
 		needitem_label = 'Cut Wood Log', 
 		needitem_amount = 5, 
