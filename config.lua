@@ -36,6 +36,13 @@ Config.MarkerDisplayColor = { R, G, B, A } -- RGBA -- 'CONFIGURED AFTER U GET TH
 Config.MarkerCoordCorrection = 1 -- This will change the Z coord "-1" so markers are on ground properly
 Config.MarkerRotate = false
 
+-- Job Settings
+Config.UseJob = false -- If true only jobs from the list can work here
+Config.AllowedJobs = {
+    "lumberjack",
+    "woodcutter"
+}
+
 -- Working Coords + Item Settings
 Config.SawLogPoints = {
     [1] = { -- Monto's Rest 
